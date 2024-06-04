@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "clueso-xyz"
+version = "0.1.0"
+description = ""
+authors = ["arach <arach@tchoupani.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.12,<=3.13"
+langchain = ">0.2.0"
+pydantic = "^2.7.3"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+openai = "^1.31.0"
+python-dotenv = "^1.0.1"
+playwright = "^1.44.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
