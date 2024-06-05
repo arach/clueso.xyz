@@ -38,7 +38,7 @@ We use python and poetry for this project
 
 ![Outreach Process](./assets/outreach.png)
 
-![Research Report](./assetns/research_report.png)
+![Research Report](./assets/research_report.png)
 
 ### Important Repositories
 
