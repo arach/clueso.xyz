@@ -18,13 +18,13 @@ export default function Home() {
         </div>
         <div className="flex flex-col items-center justify-center">
           <figure>
-            <Image src="/top-repos.png" width={500} height={300} alt="top repos" />
+            <Image src="/top-repos.png" width={1080} height={483} alt="top repos" />
             <figcaption>Top Trending Repositories on GitHub</figcaption>
           </figure>
         </div>
         <div className="flex flex-col items-center justify-center">
           <figure>
-            <Image src="/reachouts.png" width={500} height={300} alt="reachouts" />
+            <Image src="/reachouts.png" width={750} height={279} alt="reachouts" />
             <figcaption>Reachouts</figcaption>
           </figure>
         </div>
