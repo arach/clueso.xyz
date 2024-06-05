@@ -1,27 +1,20 @@
 get_trending_reports_task:
   description: >
-    Get a high level view of the trending repositories on Github and provide high level analysis. You should take a look at the top 10 repos trending on the weekly view of github's tool. YOu should outline which ones seem most promising.
+    Get a high level view of the trending repositories on Github and provide high level analysis. You should take a look at the top 5 repos trending on the daily view of github's trending tool. You should outline which ones seem most promising.
 
 research_task:
   description: >
-    You are an analyst at a Venture Capital Firm. We have given you the task to research a github repository. It's a trending repository and you need to find out what it is about. I'm going to need you to provide me with the following information about the repository: \nexplain what the repository is about, \nwhat programming language it uses, \nhow many stars it has, \nhow many forks it has, \nwhat the top competitors to the project is. If there's a link to a company website, please include that as well.\nPlease provide me with a detailed, structured report.
+    You are a very smart technical research analyst. We have given you the task to research top github repositories. For each of the top 3 repos you've identified, we're going to need you to provide the following information about the repository: \nexplain what the repository is about, \nwhat programming language it uses, \nhow many stars it has, \nhow many forks it has, \nwhat the top competitors to the project are. If there's a link to a company website, please include that as well.\nPlease provide me with a detailed, structured report.
   expected_output: >
-    A list of at least 10 bullet points summarizing the most relevant and interesting
+    A list of at least 6 bullet points summarizing the most relevant and interesting
     information and resources related to the actionable tasks identified,
     including links and brief descriptions of each resource.
 
 research_report_task:
   description: >
-    Instruct analysts to gather actionable insights from the GitHub repositories and synthesize these findings into a structured report. The report should be clear, detailed, and formatted in a way that is easy to navigate. Arrange the content in a logical sequence and include any necessary context or directives that will empower the user to make informed decisions. The objective is to produce a thorough and engaging research report that provides the user with valuable insights to enhance their understanding and evaluation of programming trends.
-
-
-    ### Research Report Example:
-
-    {research}
+    Get a high level view of the trending repositories on Github and provide high level analysis. You should take a look at the top 3 repos trending on the weekly view of github's tool. You should outline which ones seem most promising. Instruct analysts to gather actionable insights from the GitHub repositories and synthesize these findings into a structured report. The report should be clear, detailed, and formatted in a way that is easy to navigate. Arrange the content in a logical sequence and include any necessary context or directives that will empower the user to make informed decisions. The objective is to produce a thorough and engaging research report that provides the user with valuable insights to enhance their understanding and evaluation of programming trends.
   
   expected_output: >
-    Task output: Here's the structured report on the 'danielmiessler / fabric' repository:
-
     1. **Repository Name:** Fabric
     2. **URL:** [https://github.com/danielmiessler/fabric](https://github.com/danielmiessler/fabric)
     3. **About the Repository:** Fabric is an open-source framework designed to augment human capabilities using artificial intelligence (AI). It provides a modular structure for solving specific problems by leveraging a crowdsourced set of AI prompts that can be used across various applications.
@@ -37,14 +30,11 @@ research_report_task:
     10. **Command-Line Interface:** The project provides a command-line interface (CLI) for easy usage and integration with various AI models and services.
     11. **Customizability:** Fabric is designed to be highly customizable, allowing users to create their own AI infrastructure and applications.
 
-
 reach_out_task:
   description: >
-    Instruct analysts to reach out to the main contributors of a repository. You will need to identify the main contributors of the repository, and then reach out to them using the following methods: \n- Direct message \n- Email \n- LinkedIn \n- Twitter \n- GitHub \n- Slack \n- LinkedIn Group \n- Twitter Account \n- GitHub Organization \n- Slack Channel \n- LinkedIn Page \n- Medium Blog \n- YouTube Channel \n- Facebook Page \n- Instagram Account \n- LinkedIn Page \n- Twitter Account \n- GitHub
-
-    Also come up with a personal message about them that the analyst/partner can use in their reach out. Feel free to use any tools that you think would be helpful.
+    For the top repos we've just done research about, instruct analysts to find the information required to effecitvely reach out to the core contributors of a repo. We want to come up with a personal message about them that shows we did some research. free to use any tools that you think would be helpful.
   
   expected_output: >
     We should send a personal message via email to the main contributor of the repo at _email_. The message 
     ::Hey {{name of the contributor}}, your {{name_repository}} project has caught our eye for its innovative approach to developing a web-based face recognition system. We appreciate the use of advanced deep learning techniques and computer vision algorithms in your project. We are interested in learning more about your work and exploring potential opportunities for partnership. Could we schedule a meeting at your earliest convenience?
-  
+

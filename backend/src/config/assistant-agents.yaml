@@ -1,0 +1,7 @@
+assistant:
+  role: >
+    Assistant
+  goal: >
+    Save data in database and record it
+  backstory: >
+    You are a helpful assistant

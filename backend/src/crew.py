@@ -1,11 +1,15 @@
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
 from tools.github_trending_tool.github_trending_tool import GithubTrendingTool
-from crewai_tools.tools import WebsiteSearchTool, SerperDevTool, FileReadTool
+from crewai_tools.tools import WebsiteSearchTool, FileReadTool
 from tools.perplexity_tool.perplexity_tool import PerplexityTool
 
 web_search_tool = WebsiteSearchTool()
-serper_dev_tool = SerperDevTool()
+import agentops
+import os
+import dotenv
+dotenv.load_dotenv()
+agentops.init(os.getenv("AGENTOPS_API_KEY"))
 
 @CrewBase
 class GithubResearchCrew():
@@ -13,12 +17,19 @@ class GithubResearchCrew():
     agents_config = 'config/agents.yaml'
     tasks_config = 'config/tasks.yaml'
 
+    @agent
+    def technical_analyst(self) -> Agent:
+            return Agent(
+                    config=self.agents_config['technical_analyst'],
+                    tools=[PerplexityTool()],
+                    verbose=True
+            )
 
     @agent
     def researcher(self) -> Agent:
             return Agent(
                     config=self.agents_config['researcher'],
-                    tools=[GithubTrendingTool(), serper_dev_tool, PerplexityTool()],
+                    tools=[GithubTrendingTool(), PerplexityTool()],
                     verbose=True
             )
 
@@ -26,6 +37,7 @@ class GithubResearchCrew():
     def partner(self) -> Agent:
             return Agent(
                     config=self.agents_config['partner'],
+                    tools=[PerplexityTool(), web_search_tool],
                     verbose=True
             )
 
@@ -43,8 +55,8 @@ class GithubResearchCrew():
         return Task(
             config=self.tasks_config['reach_out_task'],
             agent=self.partner(),
-            output_file='reach_out.md'
-        )
+            output_file='outreach.md'
+       )
     
     @crew
     def crew(self) -> Crew:

@@ -1,0 +1,14 @@
+save_research_task:
+  description: >
+    Take the latest from the file research_report.md and save its content in supabase to keep a record of this research for future reference
+  
+  expected_output: >
+    A list of at least 10 bullet points summarizing the most relevant and interesting
+    information and resources related to the actionable tasks identified,
+    including links and brief descriptions of each resource.
+
+save_outreach_task:
+  description: >
+    Take the latest from the file outreach.md and save its content in supabase to keep a record of this research for future reference
+  expected_output: >
+    A list of the saved outreach messages. 
