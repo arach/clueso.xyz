@@ -57,3 +57,6 @@ This project utilizes several key technologies and libraries. Below are the repo
   - Perplexity provides tools for deep analysis and understanding of text data.
 
 Please refer to each repository for more detailed information on their usage and integration into our project.
+
+
+![Trending](./assets/trending-screenshot.png)
