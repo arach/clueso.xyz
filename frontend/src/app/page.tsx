@@ -1,5 +1,4 @@
 import Image from "next/image";
-import GitHubButton from 'react-github-btn'
 
 export default function Home() {
   return (
@@ -12,7 +11,6 @@ export default function Home() {
         <p>
           Clueso is a simple tool to help busy developers (and investors) stay on top of the latest trending repos on Github.
         </p>
-        <GitHubButton href="https://github.com/arach/clueso.xyz">Follow Us on Github</GitHubButton>
       </div>
     </main >
   );
