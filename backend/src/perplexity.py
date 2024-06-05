@@ -6,8 +6,6 @@ load_dotenv()  # Load environment variables from a .env file
 
 PERPLEXITY_API_KEY = os.getenv("PERPLEXITY_API_KEY")
 
-
-
 client = OpenAI(api_key=PERPLEXITY_API_KEY, base_url="https://api.perplexity.ai")
 
 
