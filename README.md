@@ -1,5 +1,7 @@
 # clueso.xyz
 
+![Clueso](./assets/clueso.png)
+
 ### Overview
 The agent system in this project is designed to automate and enhance the process of doing research on cool github projects and set up outreach. Each agent has a specific role that contributes to identifying and engaging with promising GitHub repositories and their contributors.
 
