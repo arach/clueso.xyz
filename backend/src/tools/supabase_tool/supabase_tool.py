@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 from crewai_tools import BaseTool
 from pydantic.v1 import BaseModel, Field
 from supabase import create_client, Client
-import supabase
 from datetime import datetime
 from langchain.agents import tool
 
@@ -25,9 +24,6 @@ class SupabaseTool():
         key = os.environ.get("SUPABASE_KEY")
         client: Client = create_client(url, key)
         day = datetime.now().strftime("%Y-%m-%d")
-        print(client)
-        print(client.table('research_reports'))
-        print(client.table('research_reports').select().execute())
 
         report_path = os.path.join(os.path.dirname(__file__), '../../../research_report.md')
         with open(report_path, 'r') as file:
@@ -37,7 +33,6 @@ class SupabaseTool():
             "name": f"research_report_{day}",
             "content": report_content
         }).execute()
-        print("Done! ", data, count)
         return data
     
     @tool
@@ -63,5 +58,4 @@ class SupabaseTool():
             "name": f"outreach_{day}",
             "content": outreach_content
         }).execute()
-        print("Done! ", data, count)
         return data
