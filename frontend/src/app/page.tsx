@@ -28,7 +28,7 @@ export default function Home() {
             <figcaption>Reachouts</figcaption>
           </figure>
         </div>
-        <GitHubButton href="https://github.com/arach/clueso.xyz" data-icon="octicon-star" data-size="large" data-show-count="true" className="mx-auto">
+        <GitHubButton href="https://github.com/arach/clueso.xyz" data-icon="octicon-star" data-size="large" data-show-count="true" >
           Find us on GitHub
         </GitHubButton>
 
