@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import GitHubButton from 'react-github-btn';
 
 export default function Home() {
   return (
@@ -28,9 +27,6 @@ export default function Home() {
             <figcaption>Reachouts</figcaption>
           </figure>
         </div>
-        <GitHubButton href="https://github.com/arach/clueso.xyz" data-icon="octicon-star" data-size="large" data-show-count="true" >
-          Find us on GitHub
-        </GitHubButton>
 
       </div>
     </main >
