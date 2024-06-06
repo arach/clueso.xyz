@@ -1,8 +1,17 @@
-For LadybirdWebBrowser / ladybird:
-"Hey Andreas Kling and team, your LadybirdWebBrowser / ladybird project has caught our eye for its innovative approach to developing a web-based browser system. We appreciate the use of advanced web standards in your project. We are interested in learning more about your work and exploring potential opportunities for partnership. Could we schedule a meeting at your earliest convenience? Please contact us back through our GitHub profile or email us at _email_."
+1. **Email to @bmb and @cpm-dev (MiniCPM-V project):**
+   "Dear @bmb and @cpm-dev,
+   I am reaching out to you regarding your MiniCPM-V repository on GitHub. Your work on implementing the Constrained Programming Model (CPM) solver in C++ has caught our attention. We appreciate the use of advanced optimization techniques in your project. We are interested in learning more about your work and exploring potential opportunities for partnership. Could we schedule a meeting at your earliest convenience?
+   Best Regards,
+   [Your Name]"
 
-For onuratakan / gpt-computer-assistant:
-"Hello Onur ULUSOY, we have been exploring your onuratakan / gpt-computer-assistant project and are intrigued by your approach to providing a ChatGPT MacOS app for Windows and Linux users. Your work in this area stands out, and we are keen to understand more about it. We would love to discuss potential partnership opportunities. Could we schedule a meeting at your earliest convenience? Please contact us back through our GitHub profile or email us at _email_."
+2. **Email to VikParuchuri (marker project):**
+   "Dear Vik,
+   I am reaching out to you regarding your marker repository on GitHub. Your work on creating a tool for managing markers in videos is innovative and intriguing. We appreciate the efficient way in which your project simplifies the process for content creators, developers, and researchers. We are interested in learning more about your work and exploring potential opportunities for partnership. Could we schedule a meeting at your earliest convenience?
+   Best Regards,
+   [Your Name]"
 
-For lllyasviel / Omost:
-"Greetings lllyasviel, your Omost project has grabbed our attention due to its unique focus on converting the coding capabilities of Large Language Models (LLMs) into image generation capabilities. We are enthusiastic about the potential of your project and would like to learn more about it. We are looking forward to exploring potential opportunities for partnership. Could we schedule a meeting at your earliest convenience? Please contact us back through our GitHub profile or email us at _email_."
+3. **Email to Isaac Lab Contributors (IsaacLab project):**
+   "Dear Isaac Lab Contributors,
+   I am reaching out to you regarding your IsaacLab repository on GitHub. Your work on developing a unified and modular framework for robot learning is impressive. We appreciate the way your project leverages NVIDIA's simulation capabilities to advance robotics research. We are interested in learning more about your work and exploring potential opportunities for partnership. Could we schedule a meeting at your earliest convenience?
+   Best Regards,
+   [Your Name]"

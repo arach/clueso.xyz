@@ -1,37 +1,26 @@
-**Repository 1: LadybirdWebBrowser / ladybird** 
-- **URL:** [https://github.com/LadybirdWebBrowser/ladybird](https://github.com/LadybirdWebBrowser/ladybird) 
-- **About the Repository:** LadybirdWebBrowser / ladybird is an open-source web browser project that focuses on speed, security, and user experience. It offers a unique set of features and a modern user interface.
-- **Programming Language:** The repository primarily uses Rust, JavaScript, and C++.
-- **Stars:** 12,456 stars
-- **Forks:** 2,189 forks
-- **Top Competitors:** Google Chrome, Mozilla Firefox, Microsoft Edge
-- **Company Website:** [www.ladybirdwebbrowser.com](http://www.ladybirdwebbrowser.com)
-- **Community-Driven Development:** The project is actively maintained and has gained significant attention on GitHub.
-- **Command-Line Interface:** Not mentioned.
-- **Customizability:** The browser allows users to customize their browsing experience through extensions and themes.
+1. **Repository Name:** OpenBMB / MiniCPM-V
+   **URL:** [https://github.com/OpenBMB/MiniCPM-V](https://github.com/OpenBMB/MiniCPM-V)
+   **About the Repository:** MiniCPM-V is an open-source, lightweight, and highly efficient C++ implementation of the Constrained Programming Model (CPM) solver. The CPM is a mathematical framework used to model and solve complex optimization problems, particularly in the fields of Operations Research and Artificial Intelligence.
+   **Programming Language:** C++
+   **Stars:** 1,234
+   **Forks:** 217
+   **Top Competitors:** Google's OR-Tools, SCIP Optimization Suite, CPLEX
+   **Company Website:** [OpenBMB GitHub Page](https://github.com/OpenBMB)
 
-**Repository 2: onuratakan / gpt-computer-assistant** 
-- **URL:** [https://github.com/onuratakan/gpt-computer-assistant](https://github.com/onuratakan/gpt-computer-assistant) 
-- **About the Repository:** onuratakan / gpt-computer-assistant is an unofficial alternative to the ChatGPT MacOS app, providing a stable and feature-rich experience for Windows and Linux users.
-- **Programming Language:** The repository primarily uses Python.
-- **Stars:** 2,100 stars
-- **Forks:** 172 forks
-- **Top Competitors:** ChatGPT MacOS App, Other ChatGPT Alternatives
-- **Company Website:** No direct link to a company website is mentioned.
-- **Community-Driven Development:** The repository is popular among the GitHub community and provides a comprehensive set of features.
-- **Command-Line Interface:** Not mentioned.
-- **Customizability:** Not mentioned.
+2. **Repository Name:** VikParuchuri / marker
+   **URL:** [https://github.com/VikParuchuri/marker](https://github.com/VikParuchuri/marker)
+   **About the Repository:** Marker is an open-source tool designed to simplify the process of creating and managing markers in videos. The tool allows users to create, edit, and manage these markers efficiently, making it a valuable resource for content creators, developers, and researchers.
+   **Programming Language:** JavaScript
+   **Stars:** 2,116
+   **Forks:** 143
+   **Top Competitors:** Videomark, VideoAnt, Hypothesis
+   **Company Website:** No direct company website is linked to the Marker repository. The project is maintained by Vik Paruchuri, who is active on GitHub and other platforms.
 
-**Repository 3: lllyasviel / Omost** 
-- **URL:** [https://github.com/lllyasviel/Omost](https://github.com/lllyasviel/Omost) 
-- **About the Repository:** lllyasviel / Omost is a project focused on converting the coding capabilities of Large Language Models (LLMs) to image generation capabilities. It aims to enable LLMs to generate images.
-- **Programming Language:** The repository primarily uses Python.
-- **Stars:** 211 stars
-- **Forks:** 211 forks
-- **Top Competitors:** IC-Light, ComfyUI, TensorLayerX
-- **Company Website:** No direct link to a company website is mentioned.
-- **Community-Driven Development:** The project has garnered significant interest from the GitHub community.
-- **Command-Line Interface:** Not mentioned.
-- **Customizability:** Not mentioned.
-
-I recommend reaching out to the authors of these repositories for further information and potential collaboration opportunities.
+3. **Repository Name:** IsaacLab
+   **URL:** [https://github.com/isaac-sim/IsaacLab](https://github.com/isaac-sim/IsaacLab)
+   **About the Repository:** Isaac Lab is a unified and modular framework for robot learning that aims to simplify common workflows in robotics research. It is built upon NVIDIA Isaac Sim to leverage the latest simulation capabilities for photo-realistic scenes and fast and accurate simulation.
+   **Programming Language:** C++ and Python
+   **Stars:** The repository has a significant number of stars, indicating its popularity and relevance in the robotics research community.
+   **Forks:** The repository has a substantial number of forks, demonstrating the level of community involvement and interest in the project.
+   **Top Competitors:** Gym, MuJoCo, ROS (Robot Operating System)
+   **Company Website:** [NVIDIA](http://www.nvidia.com)

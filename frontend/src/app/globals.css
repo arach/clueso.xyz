@@ -2,38 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'Berkeley';
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-  src: url('/fonts/BerkeleyMono/BerkeleyMonoTrial-Regular.ttf') format('TrueType');
-}
-
-
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 253, 253, 253;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  --radius: 0.25rem;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  font-family: var(--font-ibm_plex_mono), sans-serif;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-fraunces), sans-serif;
 }
